@@ -82,3 +82,33 @@ We'll work from the bottom up because the higher we go, the more room there is f
 <!-- > Finally, don't get caught up in every trend or what the pros are doing.
 > They're stronger, more flexible, and chasing every tiny performance gain they can get.
 > That probably doesn't matter for your weekend rides. -->
+
+## The Frame
+
+## Shoes
+
+Zour shoes are the lowest connection point to your bike the point where you translate energy from your legs into the bike to accelarte forward.
+and is very important as it has effects on all later/upper adjust ments.
+There it is important that you have a good fit but i should be comfortable to prevent numbness in you rfet
+
+> [!TIP]
+> If you can use stiff click-in cyclilng shoes, they definitely help to transfer
+> yout power into the pedal and save enrgy as you dont have to correct zou feed if you loose posiotn.
+> But if you are are a beginner this defnitly can wait some time if you are unsure if biking is for you
+>
+> but The stiffness of the should seems not the matter that much, use wahtever us fcomofratabe.
+> there seems to be an upper limit with diminishing returns.
+>
+> And for the clean mechanism: doesn matter as well, use what ever works for you. For exampe if you already drive a mnt bike with cleats there is no reason to buy another mechanism.
+
+### Shoe Length And Width
+
+Shoe size is a weird one. In general, the shoe should not be too tight especially as most shoes can be tighten afterwards.
+
+Do not trust shoue sizes. you probalbly need a few sizes bigger than yoz are used to as cycling shoes often are smaller/tighter then usual. (I usually wear EU43 but need 45 fr cycling shoes)
+These vary between makes and models and are no good reference.
+Especially if you have to convert betwen EU, US/GB etc
+
+The best way is t actually mesaure your foot and compare it to the insole.
+
+## Cleat position
