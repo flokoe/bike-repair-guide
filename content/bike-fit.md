@@ -84,3 +84,67 @@ After a few rides, come back and make small tweaks.
 <!-- > Finally, don't get caught up in every trend or what the pros are doing.
 > They're stronger, more flexible, and chasing every tiny performance gain they can get.
 > That probably doesn't matter for your weekend rides. -->
+
+## The Frame
+
+tbd
+
+## Shoes
+
+Your shoes and cleats – sometimes called shoe-pedal interface – create one of three connection points to your bike.
+They transfer power from your legs into the pedals to move you forward, so getting the fit right matters for both performance and comfort.
+Since your foot position affects all other bike adjustments, shoes need to fit well without causing numbness.
+While insoles can help with power transfer and comfort, we won't cover them in this guide.
+
+> [!TIP]
+> Even though, stiff cycling shoes with cleats may improve performance on high intenisity activities like sprints.[^1] There seems to be no evidence that stiff cycling shoes increase performance or efficency.[^2]
+> So if you're new to cycling, regular shoes work fine while you figure out if cycling is for you.
+> Anecdotely, I believe stiff cycling shoes help to save energy since your feet won't slip around which may reduce fatigue on long rides, but this has to be studied in the future.
+>
+> If you decide to get cycling shoes, don't stress too much about shoe stiffness.
+> While some stiffness is helpful, using stiffer shoes doesn't always improve performance.
+> There appears to be a point where adding more stiffness stops providing benefits.[^3]
+
+### Shoe Length And Width
+
+Shoe sizing is tricky.
+Your feet swell during long rides, so don't go too tight.
+Also, cycling shoes usually run small, so you'll likely need a size or two bigger than normal (I wear EU43 in regular shoes but need EU45 for cycling).
+Furthermore, sizes vary wildly between brands, and converting between EU/US/UK sizes is a mess.
+I recommend to ignore shoe sizes and measure your actual feet in millimeters instead.
+
+**Measuring your feet:**
+
+1. Put a piece of paper/cardboard against a wall
+2. Step on it with your heel against the wall
+3. Mark where your longest toe ends
+4. Measure the length in millimeters
+5. Do the same for width at the widest part of your foot
+
+**Checking the fit:**
+Take out the shoe's insole and measure its length and width.
+Compare to your foot measurements.
+If your foot is more than 5mm longer/wider than the insole, go up a size.
+Your longest toe should never touch the front of the shoe.
+
+### Cleat Position And Foot Alignment
+
+tbd
+
+## Crank Length
+
+tbd
+
+## Saddle
+
+### saddle height, fore-aft, and angle
+
+tbd
+
+### saddle form
+
+tbd
+
+[^1]: [Burns, Andrew & Kram, Rodger. (2020). The effect of cycling shoes and the shoe-pedal interface on maximal mechanical power output during outdoor sprints. Footwear Science. 12. 1-8. 10.1080/19424280.2020.1769201](https://www.researchgate.net/publication/341620562_The_effect_of_cycling_shoes_and_the_shoe-pedal_interface_on_maximal_mechanical_power_output_during_outdoor_sprints)
+[^2]: [Varvat, Manon & Samozino, Pierre & Hintzy, Frédérique. (2021). No Effect of Cycling Shoe Outsole Stiffness On Sub- and Supra-Maximal Cycling Performance Parameters.. 10.21203/rs.3.rs-1145206/v1](https://www.researchgate.net/publication/357076469_No_Effect_of_Cycling_Shoe_Outsole_Stiffness_On_Sub-_and_Supra-Maximal_Cycling_Performance_Parameters)
+[^3]: [Hurt, James W. & Kram, Rodger. (2020). No effect of cycling shoe sole stiffness on sprint performance. Footwear Science. 10.1080/19424280.2020.182553](https://www.tandfonline.com/doi/full/10.1080/19424280.2020.1825533)
