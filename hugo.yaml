@@ -1,7 +1,4 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: Bike Repair Guide
-
-module:
-  imports:
-    - path: github.com/flokoe/hugo-neodoc
+theme: plain
