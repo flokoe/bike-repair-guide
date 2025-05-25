@@ -3,12 +3,32 @@
   
   <nav>
     <ul>
-      {{ range sort (sort .Pages "Title") "Weight" }}
+      {{ $weighted := where .Pages "Params.weight" "ne" nil }}
+      {{ $unweighted := where .Pages "Params.weight" "eq" nil }}
+      
+      {{ range sort $weighted "Weight" }}
       <li>
         {{ if .IsSection }}
-          <span>{{ or .Params.Title (.Section | title) }}</span>
+          <span>{{ or .Params.Title (replace .Section "-" " " | title) }}</span>
           <ul>
-            {{ range sort (sort .Pages "Title") "Weight" }}
+            {{ range sort .Pages "Title" }}
+              <li>
+                <a href="{{ .RelPermalink }}" class="">{{ .Title }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ else }}
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ end }}
+      </li>
+      {{ end }}
+      
+      {{ range sort $unweighted "Title" }}
+      <li>
+        {{ if .IsSection }}
+          <span>{{ or .Params.Title (replace .Section "-" " " | title) }}</span>
+          <ul>
+            {{ range sort .Pages "Weight" }}
               <li>
                 <a href="{{ .RelPermalink }}" class="">{{ .Title }}</a>
               </li>

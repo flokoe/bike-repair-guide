@@ -1,7 +1,7 @@
 ---
 date: '2025-05-25T18:20:50+02:00'
-draft: true
-title: ''
+draft: false
+title: Home
 ---
 
-foobar
+Everything you need to fix and fit your bike all by yourself.
