@@ -1,0 +1,24 @@
+{{ define "main" }}
+  {{ .Content }}
+  
+  <nav>
+    <ul>
+      {{ range sort (sort .Pages "Title") "Weight" }}
+      <li>
+        {{ if .IsSection }}
+          <span>{{ or .Params.Title (.Section | title) }}</span>
+          <ul>
+            {{ range sort (sort .Pages "Title") "Weight" }}
+              <li>
+                <a href="{{ .RelPermalink }}" class="">{{ .Title }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ else }}
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+{{ end }}
