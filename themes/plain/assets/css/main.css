@@ -28,6 +28,10 @@ main {
   margin-bottom: 3rem;
 }
 
+main li {
+  margin: .3rem 0;
+}
+
 .alert {
   padding: .3rem 0rem .2rem 1rem;
   margin: 0 0 1rem 0;
