@@ -1,0 +1,34 @@
+{{- $startYear := 2024 }}
+{{- $currentDate := now }}
+{{- $currentYear := $currentDate.Year }}
+{{- $currentMonth := $currentDate.Month }}
+
+{{- $yearDiff := sub $currentYear $startYear }}
+{{- $month := int $currentMonth }}
+
+{{- if ge $month 6 }}
+  {{- $yearDiff = add $yearDiff 0.5 }}
+{{- end }}
+
+{{- $years := int $yearDiff }}
+{{- $hasHalf := eq (sub $yearDiff $years) 0.5 }}
+
+{{- if eq $years 0 -}}
+  {{- if $hasHalf -}}
+    half a year
+  {{- else -}}
+    less than a year
+  {{- end -}}
+{{- else if eq $years 1 -}}
+  {{- if $hasHalf -}}
+    one and a half years
+  {{- else -}}
+    one year
+  {{- end -}}
+{{- else -}}
+  {{- if $hasHalf -}}
+    {{- $years -}} and a half years
+  {{- else -}}
+    {{- $years -}} years
+  {{- end -}}
+{{- end -}}
