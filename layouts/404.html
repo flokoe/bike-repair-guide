@@ -1,0 +1,21 @@
+{{ define "main" }}
+    <h1>404 - Page Not Found</h1>
+
+    <p>Well, this is awkward. The page you’re looking for has vanished.</p>
+
+    <p>Don’t worry though—unlike that one bolt you dropped that disappeared into another dimension,
+        this page might actually be findable.</p>
+
+    <blockquote class="alert alert-tip">
+        <p class="alert-heading">
+            <span class="lucide--tip"></span>
+            Tip
+        </p>
+        <p>While you’re here, might as well troubleshoot:</p>
+        <ol>
+            <li>Check if you typed the URL correctly</li>
+            <li>Head back to our <a href="{{ .Site.Home.RelPermalink }}">home page</a> and start fresh</li>
+            <li>Take a break and grab some coffee</li>
+        </ol>
+    </blockquote>
+{{ end }}
