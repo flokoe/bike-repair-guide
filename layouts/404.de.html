@@ -1,0 +1,22 @@
+{{ define "main" }}
+    <h1>404 - Seite nicht gefunden</h1>
+
+    <p>Hoppla. Die Seite, die du suchst, ist verschwunden.</p>
+
+    <p>Aber keine Sorge – im Gegensatz zu der einen Schraube, die du fallen gelassen hast und die in eine andere Dimension
+    verschwunden ist, lässt sich diese Seite vielleicht tatsächlich wiederfinden.</p>
+
+    <blockquote class="alert alert-tip">
+        <p class="alert-heading">
+            <span class="lucide--tip"></span>
+            Tip
+        </p>
+        <p>Da du schon mal hier bist, kannst du folgendes zur Fehleranalyse versuchen:</p>
+        <ol>
+            <li>Überprüf mal, ob du die URL richtig eingegeben hast</li>
+            <li>Eventuell gibt es diese Seite noch nicht auf Deutsch. Probier es mal mit der Englishen Variante</li>
+            <li>Geh zurück zu unserer <a href="{{ .Site.Home.RelPermalink }}">Startseite</a> und schau dort, ob du findest was du suchst</li>
+            <li>Mach eine Pause und hol dir einen Kaffee</li>
+        </ol>
+    </blockquote>
+{{ end }}

@@ -21,3 +21,12 @@ languages:
     languageName: Deutsch
     contentDir: content/de
     copyright: Der Inhalt dieser Seite ist lizensiert unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
+
+server:
+  redirects:
+  - from: /de/**
+    status: 404
+    to: /de/404.html
+  - from: /**
+    status: 404
+    to: /404.html
