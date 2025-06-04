@@ -1,9 +1,32 @@
 baseURL: https://example.org/
-languageCode: en-us
 title: Bike Repair Guide
 theme: plain
 
 enableEmoji: true
-copyright: The content on this page is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 ignoreFiles:
   - '.*LICENSE.*'
+
+defaultContentLanguage: en
+languages:
+  en:
+    weight: 1
+    languageCode: en-us
+    languageDirection: ltr
+    languageName: English
+    contentDir: content/en
+    copyright: The content on this page is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+  de:
+    languageCode: de-de
+    languageDirection: ltr
+    languageName: Deutsch
+    contentDir: content/de
+    copyright: Der Inhalt dieser Seite ist lizensiert unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
+
+server:
+  redirects:
+  - from: /de/**
+    status: 404
+    to: /de/404.html
+  - from: /**
+    status: 404
+    to: /404.html
