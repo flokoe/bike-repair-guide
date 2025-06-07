@@ -1,0 +1,24 @@
+{{ with .Site.Data.components }}
+<ol class="components">
+    {{ range site.Data.components }}
+    {{ $component := . }}
+    {{ $hasPage := false }}
+    {{ $pageLink := "" }}
+    
+    {{ range site.RegularPages }}
+        {{ if eq .File.BaseFileName $component }}
+        {{ $hasPage = true }}
+        {{ $pageLink = .RelPermalink }}
+        {{ end }}
+    {{ end }}
+    
+    <li>
+        {{ if $hasPage }}
+        <a href="{{ $pageLink }}">{{ i18n $component }}</a>
+        {{ else }}
+        {{ i18n $component }}
+        {{ end }}
+    </li>
+    {{ end }}
+</ol>
+{{ end }}
