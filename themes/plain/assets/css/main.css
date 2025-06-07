@@ -232,6 +232,16 @@ main li {
   mask-size: 100% 100%;
 }
 
+:where(iframe, img, input, video, select, textarea) {
+  height: auto;
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.components {
+  columns: 2;
+}
+
 @media (min-width: 640px) {
   header {
     flex-direction: row;
